@@ -2,6 +2,7 @@ package triangle
 
 import "math"
 
+// 递归+记忆化
 func minimumTotal2(triangle [][]int) int {
 	var minResult = math.MaxInt64
 	deepIndex := len(triangle) - 1
