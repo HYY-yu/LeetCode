@@ -2,6 +2,7 @@ package 字母异位词分组
 
 import "sort"
 
+//
 func groupAnagrams(strs []string) [][]string {
 	result := make([][]string, 0)
 	hash := make(map[string]int)
