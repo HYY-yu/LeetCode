@@ -14,3 +14,5 @@ func plusOne(digits []int) []int {
 	}
 	return digits
 }
+
+// 加k 思路
