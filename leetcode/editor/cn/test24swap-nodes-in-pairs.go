@@ -42,9 +42,6 @@
 
 package main
 
-func main() {
-}
-
 // leetcode submit region begin(Prohibit modification and deletion)
 func swapPairs(head *ListNode) *ListNode {
 	dummyHead := new(ListNode)
