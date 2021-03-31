@@ -40,7 +40,6 @@ func inorderWithStack(p *TreeNode, r []int) []int {
 		}
 		// 弹出栈顶元素
 		stack, p = pop(stack)
-		//访问代码
 		r = append(r, p.Val)
 		// 进入右子树
 		p = p.Right
