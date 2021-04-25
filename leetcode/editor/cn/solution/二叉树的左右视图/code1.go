@@ -21,6 +21,7 @@ func rightSideViewBFS(root *TreeNode) []int {
 		size := len(queue)
 		for i := 0; i < size; i++ {
 			queue, p = front(queue)
+			// 左视图 i == size -1
 			if i == 0 {
 				r = p.Val
 			}

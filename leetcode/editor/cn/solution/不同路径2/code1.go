@@ -37,7 +37,7 @@ func uniquePathsWithObstacles2(obstacleGrid [][]int) int {
 			if obstacleGrid[i][j] == 1 {
 				dp[j] = 0
 			} else {
-				dp[j] = dp[j] + dp[j+1]
+				dp[j] += dp[j+1]
 			}
 		}
 	}
